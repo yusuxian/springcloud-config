@@ -1,0 +1,14 @@
+﻿spring:
+  profiles:
+  - dev
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name:springcloud-config-qst-dev
+---
+spring:
+  profiles: test  #测试环境
+  application: 
+    name:springcloud-config-qst-test
+# 请保存为UTF-8的形式
