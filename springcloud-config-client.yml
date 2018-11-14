@@ -17,7 +17,7 @@ eureka:
 server: 
   port: 8202
 spring:
-  profiles: dev   #测试环境
+  profiles: test   #测试环境
   application:
     name: springcloud-config-client
 eureka: 
